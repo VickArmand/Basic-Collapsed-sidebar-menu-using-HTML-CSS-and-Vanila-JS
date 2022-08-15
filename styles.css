@@ -29,6 +29,7 @@ body{
 #sidebar ul li a{
     text-decoration: none;
     padding:8px 8px 8px 32px ;
+    margin: 15px 0;
     font-size: 25px;
     color: #818181;
     display: block;
@@ -63,7 +64,11 @@ body{
     transition: margin-left 0.5s;
     padding: 16px;
 }
-
+.active{
+    background-color: #f5f2f2a9;
+    color: black;
+    border-radius: 5px;
+}
 @media screen and (max-height: 450px){
     #sidebar{
         padding-top: 15px;
@@ -71,4 +76,5 @@ body{
     #sidebar ul li a{
         font-size: 18px;
     }
+    
 }
